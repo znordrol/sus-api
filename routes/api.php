@@ -20,3 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('sus', [SusController::class, 'whoAreYou']);
+Route::get('tia', [AiController::class, 'iLoveYou']);
